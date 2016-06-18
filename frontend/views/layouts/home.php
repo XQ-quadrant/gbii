@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
 <?php $this->beginBody() ?>
 <?php
 NavBar::begin([
-    'brandLabel' => '<img src="/gbii/frontend/web/logo2_s_w280.png" alt="logo" style="height: 37px;margin: -8px 0px"/>',//Yii::t('common','宿宿'),//'My Company',
+    'brandLabel' => '<img src="/logo2_s_w280.png" alt="logo" style="height: 37px;margin: -8px 0px"/>',//Yii::t('common','宿宿'),//'My Company',
     'brandUrl' => Yii::$app->homeUrl,
     'options' => [
         'class' => 'home_navbar-inverse navbar-inverse navbar-fixed-top ',
